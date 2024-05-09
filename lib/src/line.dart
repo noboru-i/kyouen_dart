@@ -20,11 +20,11 @@ class Line {
   }
 
   double getY(double x) {
-    return -1 * (a * x - c) / b;
+    return -1 * (a * x + c) / b;
   }
 
   double getX(double y) {
-    return -1 * (b * y - c) / a;
+    return -1 * (b * y + c) / a;
   }
 
   KyouenPoint? calculateIntersection(Line other) {
@@ -33,7 +33,7 @@ class Line {
     final f2 = other.p2.x - other.p1.x;
     final g2 = other.p2.y - other.p1.y;
 
-    final det = f1 * g2 - f2 * g1;
+    final det = f2 * g1 - f1 * g2;
     if (det == 0) {
       return null;
     }
