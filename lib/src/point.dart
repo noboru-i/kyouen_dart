@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:kyouen/kyouen.dart';
+import 'package:kyouen/src/line.dart';
 
 typedef KyouenPoint = Point<double>;
 
