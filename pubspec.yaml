@@ -1,7 +1,8 @@
 name: kyouen
 description: "Check whether it is Kyouen."
 version: 0.0.1
-homepage: null
+homepage: https://github.com/noboru-i/kyouen_dart
+repository: https://github.com/noboru-i/kyouen_dart
 
 environment:
   sdk: ">=3.3.4 <4.0.0"
