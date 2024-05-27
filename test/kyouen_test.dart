@@ -1,8 +1,8 @@
-import 'package:kyouen/src/kyouen.dart';
-import 'package:test/test.dart';
-
-import 'package:kyouen/kyouen.dart';
 import 'dart:math';
+
+import 'package:kyouen/src/kyouen.dart';
+import 'package:kyouen/src/point.dart';
+import 'package:test/test.dart';
 
 void main() {
   group('hasKyouen', () {
