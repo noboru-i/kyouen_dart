@@ -45,7 +45,7 @@ class Kyouen {
 
     final dist1 = p1.calculateDistance(intersection123);
     final dist2 = p4.calculateDistance(intersection123);
-    if ((dist1 - dist2).abs() == 0) {
+    if ((dist1 - dist2).abs() < 1e-9) {
       return KyouenData.circleKyouen(p1, p2, p3, p4, intersection123, dist1);
     }
 
