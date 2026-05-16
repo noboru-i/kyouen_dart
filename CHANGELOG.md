@@ -1,6 +1,6 @@
 ## 0.0.2
 
-* Fix floating-point equality comparison in concyclic detection to use epsilon tolerance (< 1e-9) instead of exact equality (== 0).
+* Fix concyclic detection accuracy. ([#1](https://github.com/noboru-i/kyouen_dart/pull/1))
 
 ## 0.0.1
 
