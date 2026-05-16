@@ -1,3 +1,10 @@
+---
+description: Bump the package version, update CHANGELOG.md with a PR link and brief summary, commit both files, and push. Use when the user asks to update, bump, or change the version number.
+disable-model-invocation: true
+argument-hint: <new-version>
+allowed-tools: Bash(git *) Edit Write Read
+---
+
 バージョンを $ARGUMENTS にバンプする。以下を**すべて確認なしで**実行する。
 
 1. **`pubspec.yaml`** の `version:` フィールドを $ARGUMENTS に更新する
